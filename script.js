@@ -28,5 +28,4 @@ function BMI() {
 		alert('Please enter your weight and height!')
 	}
 
-    }
-    
+}

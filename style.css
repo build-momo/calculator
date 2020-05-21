@@ -1,6 +1,15 @@
 body {
     font-family: 'Quicksand';
-    background-color: #cad2c5;
+    /*background-image: linear-gradient(180deg, #cad2c5, #84a98c,#52796f);*/
+    background:
+    radial-gradient(circle farthest-side at 0% 50%,#cad2c5 23.5%,rgba(240,166,17,0) 0)21px 30px,
+    radial-gradient(circle farthest-side at 0% 50%,rgb(19, 114, 82) 24%,rgba(240,166,17,0) 0)19px 30px,
+    linear-gradient(#cad2c5 14%,rgba(240,166,17,0) 0, rgba(240,166,17,0) 85%,#cad2c5 0)0 0,
+    linear-gradient(150deg,#cad2c5 24%,#52796f 0,#52796f 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#52796f 0,#52796f 76%,#cad2c5 0)0 0,
+    linear-gradient(30deg,#cad2c5 24%,#52796f 0,#52796f 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#52796f 0,#52796f 76%,#cad2c5 0)0 0,
+    linear-gradient(90deg,#52796f 2%,#cad2c5 0,#cad2c5 98%,#52796f 0%)0 0 #cad2c5;
+    background-size: 40px 60px;
+
     text-align: center;
     margin: 0;
     padding: 0;
@@ -25,7 +34,8 @@ div {
 #info {
     text-transform: uppercase;
     font-size: 14px;
-    font-style: italic;
+    width: 550px;
+    line-height: 30px;
 }
 
 ::placeholder {
@@ -63,4 +73,10 @@ input:focus, button:focus {
     font-size: 16px;
     border-width: 0 0 1px 0;
     border-color:  #354f52;
+}
+
+#result {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
 }
